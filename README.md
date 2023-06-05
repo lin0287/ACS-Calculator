@@ -1,46 +1,25 @@
-# Getting Started with Create React App
+# Aircraft Carrier Survival Calculator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Aircraft Carrier Survival Calculator (ACS) is a tool designed to assist in selecting the optimal deck of cards for launching an attack. In the game Aircraft Carrier Survival, the choice of cards is crucial, as an incorrect selection can lead to mission failure. Conversely, choosing the right combination of cards can result in spectacular success. This project aims to develop a calculator that automatically selects the best cards based on the available choices.
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+- Adaptability: The calculator dynamically adapts to the user's card deck, ensuring the selection of the most effective cards.
+- User Input: Users can specify the cards they possess, allowing the calculator to consider those options during the selection process.
+- Advanced Considerations: Future updates will include the incorporation of opposing forces' capabilities and resource constraints, enhancing the accuracy of the card selection.
 
-### `npm start`
+## Documentation
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+For additional information and game strategies, it is recommended that players consult the Steam Guides for Aircraft Carrier Survival.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Contributing
 
-### `npm test`
+Contributions to the Aircraft Carrier Survival Calculator project are welcome. If you would like to contribute, you can do so by suggesting fixes, optimizing algorithms, or reporting bugs.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Support and Issue Tracking
 
-### `npm run build`
+If you need support or would like to report any issues or bugs, please raise an issue on the [GitHub repository](https://github.com/lin0287/ACS-Calculator).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Acknowledgments
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Aircraft Carrier Survival and its assets belong to CreativeForge Games. The author of this project makes no claim of ownership to any media from the game.
