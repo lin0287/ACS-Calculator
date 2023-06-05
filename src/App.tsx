@@ -9,7 +9,7 @@ import NavbarComponent from "./NavBar/Navbar";
 
 function NoPage() {
   return (
-    <div>ERROR</div>
+    <div>404: Page not found</div>
   );
 }
 
