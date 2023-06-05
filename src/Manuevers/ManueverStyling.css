@@ -6,3 +6,7 @@
 .card {
   max-width: 150px;
 }
+
+.card.selected {
+  border: 2px solid blue; /* Customize the border style for the selected card */
+}
