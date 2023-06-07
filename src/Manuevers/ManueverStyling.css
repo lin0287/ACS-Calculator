@@ -8,5 +8,5 @@
 }
 
 .card.selected {
-  border: 2px solid blue; /* Customize the border style for the selected card */
+  border: 4px green dashed; /* Customize the border style for the selected card */
 }

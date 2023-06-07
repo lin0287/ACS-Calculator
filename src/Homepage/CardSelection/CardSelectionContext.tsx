@@ -11,12 +11,21 @@ const CardSelectionContext = createContext<CardSelectionContextType>({
 });
 
 export const CardSelectionProvider: React.FC<React.PropsWithChildren<{}>> = ({ children }) => {
-  const [selectedCards, setSelectedCards] = useState<string[]>([]);
+  const [selectedCards, setSelectedCards] = useState<string[]>(
+    ["Anvil_Attack_3","Finger_Four_3","Fixed_Target_1","Tin_Fish_3", "Torpedo_Run_1",
+      "Barrel_Roll_3", "Feint_1", "Lone_Wolf_1", "Strike_From_Sun_1",
+      "Bulwark_1", "Defensive_Bombing_3", "Jinking_1", "Thatch_Weave_3"
+    ]
+  );
 
   const handleCardClick = (id: string) => {
     if (selectedCards.includes(id)) {
       setSelectedCards(selectedCards.filter((cardId) => cardId !== id));
     } else {
+      if (selectedCards.length >= 13) {
+        console.error('Maximum number of cards reached. Cannot add more cards.');
+        return;
+      }
       setSelectedCards([...selectedCards, id]);
     }
   };

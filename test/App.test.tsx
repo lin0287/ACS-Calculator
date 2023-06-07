@@ -1,6 +1,6 @@
 import React from 'react';
 import {fireEvent, render, screen} from '@testing-library/react';
-import App from './App';
+import App from "../src/App"
 
 describe('Single Page Application Test', () => {
   it('should be a Single Page Application', () => {
@@ -9,7 +9,7 @@ describe('Single Page Application Test', () => {
     );
 
     // Check if the Home component is rendered initially
-    expect(screen.getByText("Home Page Works")).toBeInTheDocument();
+    expect(screen.getByText("Offensive Manuevers")).toBeInTheDocument();
 
     // Simulate navigating to the Tips page
     fireEvent.click(screen.getByText('Tips'));
