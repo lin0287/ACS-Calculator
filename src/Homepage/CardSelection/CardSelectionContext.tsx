@@ -31,7 +31,7 @@ export const CardSelectionProvider: React.FC<React.PropsWithChildren<{}>> = ({ c
   };
 
   useEffect(() => {
-    console.log('Selected Cards:', selectedCards); // Log the updated state immediately
+    //console.log('Selected Cards:', selectedCards); // Log the updated state immediately
   }, [selectedCards]);
 
   return (

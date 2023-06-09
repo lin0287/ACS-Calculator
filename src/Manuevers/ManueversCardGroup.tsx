@@ -1,6 +1,5 @@
-import Card from 'react-bootstrap/Card';
 import "./ManueverStyling.css"
-import {Col, Container, Row} from "react-bootstrap";
+import {Card, Col, Container, Row} from "react-bootstrap";
 import React from 'react';
 import {useCardSelection} from "../Homepage/CardSelection/CardSelectionContext";
 

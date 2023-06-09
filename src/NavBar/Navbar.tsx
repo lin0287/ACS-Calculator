@@ -1,6 +1,5 @@
 import React from 'react';
-import Container from 'react-bootstrap/Container';
-import {Nav, Navbar} from "react-bootstrap";
+import {Container, Nav, Navbar} from "react-bootstrap";
 import {Link} from "react-router-dom";
 
 function NavbarComponent() {
@@ -18,4 +17,4 @@ function NavbarComponent() {
   );
 }
 
-export default NavbarComponent;
+export default NavbarComponent
