@@ -2,8 +2,7 @@ import React from 'react';
 import CardSelector from "./CardSelection/CardSelector";
 import "./HomePage.css"
 import {CardSelectionProvider} from "./CardSelection/CardSelectionContext";
-import Container from "react-bootstrap/Container";
-import {Accordion, Col, Row} from "react-bootstrap";
+import {Container, Accordion, Col, Row} from "react-bootstrap";
 
 function Home() {
   return (
